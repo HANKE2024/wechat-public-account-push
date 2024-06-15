@@ -1,3 +1,10 @@
+/* eslint-disable */
+
+/**
+ * 此项目配置为方便新人使用，已缩减至最简配置。
+ * 如若想使用更多功能，请查考文档中的 【3. config参数说明】 
+ * 自行添加属性，以支持更多个性化功能
+ */
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
@@ -6,42 +13,10 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'e1a46122d7e502c986915c4bb1a363a0',
 
+  IS_SHOW_COLOR: true,
+  
   PROVINCE: '广东',
   CITY: '深圳',
-
-  // 是否给文字设置多彩颜色, 和emoji不兼容
-  // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: true,
-
-  // 功能开关,打开：true，关闭：false
-  SWITCH: {
-    /** 每日天气 */
-    weather: true,
-
-    /** 节假日 */
-    // 下一休息日综合提醒
-    holidaytts: true,
-
-    /** 每日N句 */
-    // 金山每日一句
-    CIBA: true,
-  
-    // 每日一言
-    oneTalk: false,
-    // 土味情话(彩虹屁)
-    earthyLoveWords: false,
-    // 朋友圈文案
-    momentCopyrighting: false,
-    // 毒鸡汤
-    poisonChickenSoup: false,
-    // 古诗古文
-    poetry: false,
-
-    /** 星座运势 */
-    horoscope: false,
-
-    /** 生日消息和节日消息 */
-    birthdayMessage: true,
 
   USERS: [
     {
@@ -50,7 +25,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oGY7i6iQ2e4yQSycoJz6axsWdE9o',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'qJn6mzgSVktcHXSF9hbQU-p-GD6m4s5OgiJDOe3epko',
+      useTemplateId: 'xA4WW41HKNz7n5w742GnRBHJ7HEqPFDL0TLTH-AW8Kg',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '03-23',
       festivals: [
@@ -75,7 +50,6 @@ const USER_CONFIG = {
   ],
 
 
-
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: 'cNGkZTqwgTPHFP2i17xoPAbrSjSLYM2cx2AQ8KyFQvY',
 
@@ -86,6 +60,7 @@ const USER_CONFIG = {
       id: 'oGY7i6iQ2e4yQSycoJz6axsWdE9o',
     }
   ],
+
 }
 
 module.exports = USER_CONFIG
