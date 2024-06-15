@@ -13,6 +13,10 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'e1a46122d7e502c986915c4bb1a363a0',
 
+  // 是否给文字设置多彩颜色, 和emoji不兼容
+  // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
+  IS_SHOW_COLOR: true,
+
   PROVINCE: '广东',
   CITY: '深圳',
 
